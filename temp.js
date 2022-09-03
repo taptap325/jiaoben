@@ -6,6 +6,7 @@
 // @author       geensu
 // @match        *://*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=greasyfork.org
+// @license      AGPL License
 // @grant        none
 // ==/UserScript==
 
