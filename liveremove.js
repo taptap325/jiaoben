@@ -13,5 +13,21 @@
  
 (function() {
     'use strict';
+    var value=true;
+     var btnarea=document.querySelector('.right-ctnr');
+     var btn=document.createElement('button');
+     btn.id='liveremove';
+     btn.textContent=value ? "去除播放器":"恢复播放器";
+     btnarea.insertBefore(btn,btnarea.children[0]);
+     btn.addEventListener(click,()=>{
+        if(value){
+            document.getElementById('live-player').remove();
 
+        }
+        else{
+            location.reload();
+        }
+        
+        value=!value;
+     })
 })();
